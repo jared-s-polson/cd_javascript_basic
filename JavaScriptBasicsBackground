@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>JavaScript Basics</title>
+    </head>
+    <style type="text/css">
+        #background {
+            background-color:blue;
+            width: 970px;
+			      height: 800px;
+        }
+        .redbox {
+            border-radius: 15px 15px 15px 15px;
+            background-color: rgb(221, 17, 51);
+            width: 930px;
+            height: 80px;
+            line-height: 80px; 
+            margin: 20px;
+        }
+        .graybox {
+            border-radius: 15px 15px 15px 15px;
+            background-color: gray; 
+            width: 930px;
+            height: 60px;
+            line-height: 60px; 
+            margin: 20px;
+        }
+        .textwhite {
+            color: white;
+            margin: 20px;
+        }
+        .textblue {
+            color: rgb(106, 201, 238);
+            margin: 20px;
+        }
+    </style>
+    <body>
+        <div id="background">
+            <div class="redbox">
+                <h1 class="textwhite">JaveScript Basics</h1>
+            </div>
+            <div class="graybox">
+                <p class="textwhite">For more useful information check out this URL: 
+                    <a href="">JavaScript!</a>
+                </p>
+            </div>                   
+        </div>      
+    </body>
+</html>
